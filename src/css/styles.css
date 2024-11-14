@@ -1,0 +1,146 @@
+.container,
+.row {
+  width: 100%;
+}
+#contact-form {
+  width: 100%;
+}
+.card-group {
+  display: flex;
+}
+
+.container-section{
+    height: 200px;
+}
+
+.navbar{
+    background-color: #E2DCC8;
+}
+
+.btn-primary{
+    background-color: #0F3D3E;
+}
+
+.btn-secondary{
+    background-color: #EAE3D2;
+}
+
+.background-dark{
+    background-color: #F1F1F1;
+}
+.name-large{
+    color: #0F3D3E;
+}
+.row-section {
+    height: 300px;
+    background-color: #004d40; /* Green color for all project sections */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.row-section1 {
+    background-color: rgb(3, 64, 58); 
+    color: white;
+}
+
+.row-section2 {
+    background-color: #0d5b6f; /
+    color: white;
+}
+
+.row-section3 {
+  background-color:#180463;(197, 118, 87); /
+  color: white;
+}
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2em;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F1F1F1; /* Match the background-dark class if needed */
+}
+
+.footer-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-icons a {
+  color: #c510b3; /* Adjust color as needed */
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  color: #71727f; /* Adjust color as needed */
+  margin: 0;
+}
+.footer-icons a {
+  color: #d7121276; /* Default color (dark) */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.footer-icons a:hover {
+  color: #0e2828; /* Brighter color on hover */
+  transform: scale(1.1); /* Slightly increase the size to give a "hover" effect */
+}
+
+.footer-icons a svg {
+  transition: fill 0.3s ease; /* Smooth transition for SVG fill color */
+}
+
+.footer-icons a:hover svg {
+  fill: #002727; /* Change the SVG fill color on hover */
+}
+#about .col-md-7 {
+  padding: 20px; /* Add some padding if needed */
+}
+
+#about .col-md-5 img {
+  width: 80%; /* Adjust the percentage to reduce the image size */
+  max-width: 100%;
+  margin: auto;
+  display: block;
+
+
+
